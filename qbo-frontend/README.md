@@ -1,12 +1,49 @@
-# React + Vite
+# QuickBooks Online Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend application for the QuickBooks Online integration project. It provides a user interface to authenticate with QuickBooks Online, view synced data, and manage settings.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- OAuth2 authentication with QuickBooks Online.
+- Dark mode toggle for better user experience.
+- Dashboard to display synced data.
+- Responsive design for various screen sizes.
 
-## Expanding the ESLint configuration
+## Prerequisites
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Node.js (v14 or later)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ManishMahto1/QuickBooksOnline.git
+   cd qbo-frontend
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Run the frontend application:
+   ```bash
+   npm run dev
+   ```
+
+## Project Structure
+
+```
+qbo-frontend/
+├── public/          # Static assets
+├── src/             # Source code
+│   ├── components/  # React components
+│   ├── App.jsx      # Main application file
+│   ├── index.js     # Entry point
+├── .env             # Environment variables
+├── .gitignore       # Git ignore file
+```
+
+## License
+
+This project is licensed under the MIT License.

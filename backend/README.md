@@ -18,8 +18,8 @@ This is the backend service for the QuickBooks Online integration project. It pr
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/ManishMahto1/QuickBooksOnline.git
+   cd backend
    ```
 
 2. Install dependencies:
